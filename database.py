@@ -60,6 +60,13 @@ class DataBase(object):
         cursor.close()
         self.mysql.commit()
 
+    def update_method_compare_by_lite_app_id(self, lite_app_id, compared):
+        update_sql = "update download_mission set method_compared= %s where lite_app_id= %s"
+        cursor = self.mysql.cursor()
+        cursor.execute(update_sql, (compared, lite_app_id))
+        cursor.close()
+        self.mysql.commit()
+
     def query_download_mission_by_full_app_id(self, full_app_id):
         query_sql = "select * from download_mission where full_app_id = %s"
         cursor = self.mysql.cursor()

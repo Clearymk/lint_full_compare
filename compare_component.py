@@ -1,6 +1,7 @@
 import json
 import csv
 import shutil
+import time
 
 from database import DataBase
 from util import create_if_not_exist
@@ -24,6 +25,7 @@ for app_pair_dir in os.listdir(root_path):
 
     if not os.path.exists(lite_apk_path) or not os.path.exists(full_apk_path):
         print("do not find app pair on path " + os.path.join(root_path, app_pair_dir))
+        print("----------")
         continue
 
     full_path = os.path.join(root_path, app_pair_dir, full_app_id)
@@ -41,10 +43,13 @@ for app_pair_dir in os.listdir(root_path):
                                                      full_app_id + ".apk"),
               shell=True, stdout=PIPE, stderr=STDOUT)
     p.wait()
-    print(p.communicate())
 
+    time.sleep(1)
     os.remove(os.path.join(simi_droid_path, lite_app_id + ".apk"))
     os.remove(os.path.join(simi_droid_path, full_app_id + ".apk"))
+
+    if os.path.exists(os.path.join(root_path, app_pair_dir, "component_stat.csv")):
+        os.remove(os.path.join(root_path, app_pair_dir, "component_stat.csv"))
 
     result_file = "{}-{}.json".format(lite_app_id, full_app_id)
 
@@ -126,12 +131,12 @@ for app_pair_dir in os.listdir(root_path):
         for component in verbose_data_dict[component_type]:
             verbose_data.append([component_type, component, 0, 1, 0])
 
-    os.remove(result_file)
-
     with open(os.path.join(root_path, app_pair_dir, "component_stat.csv"), "a+", newline="") as w:
         writer = csv.writer(w)
         writer.writerow(verbose_header)
         for _ in verbose_data:
             writer.writerow(_)
 
+    os.remove(result_file)
     db.update_component_compare_by_lite_app_id(lite_app_id, True)
+    print("----------")
