@@ -39,9 +39,8 @@ for app_pair_dir in os.listdir(root_path):
 
     print("using SimiDroid on {} and {}".format(lite_app_id, full_app_id))
     os.chdir(simi_droid_path)
-    p = Popen("java -jar SimiDroid.jar {} {}".format(lite_app_id + ".apk",
-                                                     full_app_id + ".apk"),
-              shell=True, stdout=PIPE, stderr=STDOUT)
+
+    p = Popen(['java', '-jar', 'SimiDroid.jar', lite_app_id + ".apk", full_app_id + ".apk"], stdout=PIPE, stderr=PIPE)
     p.wait()
 
     time.sleep(1)
@@ -53,7 +52,7 @@ for app_pair_dir in os.listdir(root_path):
 
     result_file = "{}-{}.json".format(lite_app_id, full_app_id)
 
-    with open(result_file) as r:
+    with open(result_file, encoding="utf8", errors="ignore") as r:
         method_data = json.load(r)
 
     method_conclusion = method_data['conclusion']
