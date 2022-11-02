@@ -1,0 +1,369 @@
+{
+  "android.app.Activity": [
+    "onContextItemSelected",
+    "onContextMenuClosed",
+    "onCreateContextMenu",
+    "onCreateOptionsMenu",
+    "onCreateNavigateUpTaskStack",
+    "onCreatePanelView",
+    "onGenericMotionEvent",
+    "onKeyDown",
+    "onCreateView",
+    "onKeyLongPress",
+    "onKeyMultiple",
+    "onKeyShortcut",
+    "onKeyUp",
+    "onMenuItemSelected",
+    "onMenuOpened",
+    "onMultiWindowModeChanged",
+    "onOptionsItemSelected",
+    "onOptionsMenuClosed",
+    "onPanelClosed",
+    "onTouchEvent",
+    "onTrackballEvent",
+    "onUserInteraction"
+  ],
+  "android.app.ActionBar.TabListener": [
+    "onTabReselected",
+    "onTabSelected",
+    "onTabUnselected"
+  ],
+  "android.app.FragmentBreadCrumbs.OnBreadCrumbClickListener": ["onBreadCrumbClick"],
+  "android.app.Dialog": [
+    "onBackPressed"
+  ],
+  "android.view.ActionMode.Callback": [
+    "onCreateActionMode",
+    "onActionItemClicked",
+    "onDestroyActionMode"
+  ],
+  "android.app.ActionBar.OnNavigationListener": [
+    "android.app.ActionBar.OnNavigationListener"
+  ],
+  "android.view.ActionProvider.VisibilityListener": [
+    "onActionProviderVisibilityChanged"
+  ],
+  "android.view.AttachedSurfaceControl.OnBufferTransformHintChangedListener": [
+    "onBufferTransformHintChanged"
+  ],
+  "android.view.CollapsibleActionView": [
+    "onActionViewCollapsed",
+    "onActionViewExpanded"
+  ],
+  "android.view.GestureDetector.OnContextClickListener": [
+    "onContextClick"
+  ],
+  "android.view.GestureDetector.OnDoubleTapListener": [
+    "onDoubleTap",
+    "onDoubleTapEvent",
+    "onSingleTapConfirmed"
+  ],
+  "android.view.GestureDetector.OnGestureListener": [
+    "onDown",
+    "onFling",
+    "onLongPress",
+    "onScroll",
+    "onShowPress",
+    "onSingleTapUp"
+  ],
+  "android.view.InputQueue.Callback": [
+    "onInputQueueCreated",
+    "onInputQueueDestroyed"
+  ],
+  "android.view.KeyEvent.Callback": [
+    "onKeyDown",
+    "onKeyLongPress",
+    "onKeyMultiple",
+    "onKeyUp"
+  ],
+  "android.view.LayoutInflater.Factory": [
+    "onCreateView"
+  ],
+  "android.view.LayoutInflater.Factory2": [
+    "onCreateView"
+  ],
+  "android.view.LayoutInflater.Filter": [
+    "onLoadClass"
+  ],
+  "android.view.MenuItem.OnActionExpandListener": [
+    "onMenuItemActionCollapse",
+    "onMenuItemActionExpand"
+  ],
+  "android.view.MenuItem.OnMenuItemClickListener": [
+    "onMenuItemClick"
+  ],
+  "android.view.ScaleGestureDetector.OnScaleGestureListener": [
+    "onScale",
+    "onScaleBegin",
+    "onScaleEnd"
+  ],
+  "android.view.ScrollCaptureCallback": [
+    "onScrollCaptureEnd",
+    "onScrollCaptureImageRequest",
+    "onScrollCaptureSearch",
+    "onScrollCaptureStart"
+  ],
+  "android.view.SurfaceHolder.Callback": [
+    "surfaceChanged",
+    "surfaceCreated",
+    "surfaceDestroyed"
+  ],
+  "android.view.SurfaceHolder.Callback2": [
+    "surfaceRedrawNeeded",
+    "surfaceRedrawNeededAsync"
+  ],
+  "android.view.TextureView.SurfaceTextureListener": [
+    "onSurfaceTextureAvailable",
+    "onSurfaceTextureDestroyed",
+    "onSurfaceTextureSizeChanged",
+    "onSurfaceTextureUpdated"
+  ],
+  "android.view.View.OnAttachStateChangeListener": [
+    "onViewAttachedToWindow",
+    "onViewDetachedFromWindow"
+  ],
+  "android.view.View.OnCapturedPointerListener": [
+    "onCapturedPointer"
+  ],
+  "android.view.View.OnClickListener": [
+    "onClick"
+  ],
+  "android.view.View.OnContextClickListener": [
+    "onContextClick"
+  ],
+  "android.view.View.OnCreateContextMenuListener": [
+    "onCreateContextMenu"
+  ],
+  "android.view.View.OnDragListener": [
+    "onDrag"
+  ],
+  "android.view.View.OnFocusChangeListener": [
+    "onFocusChange"
+  ],
+  "android.view.View.OnGenericMotionListener": [
+    "onGenericMotion"
+  ],
+  "android.view.View.OnHoverListener": [
+    "onHover"
+  ],
+  "android.view.View.OnKeyListener": [
+    "onKey"
+  ],
+  "android.view.View.OnLayoutChangeListener": [
+    "onLayoutChange"
+  ],
+  "android.view.View.OnLongClickListener": [
+    "onLongClick"
+  ],
+  "android.view.View.OnScrollChangeListener": [
+    "onScrollChange"
+  ],
+  "android.view.View.OnSystemUiVisibilityChangeListener": [
+    "onSystemUiVisibilityChange"
+  ],
+  "android.view.View.OnTouchListener": [
+    "onTouch"
+  ],
+  "android.view.View.OnUnhandledKeyEventListener": [
+    "onUnhandledKeyEvent"
+  ],
+  "android.view.ViewGroup.OnHierarchyChangeListener": [
+    "onChildViewAdded",
+    "onChildViewRemoved"
+  ],
+  "android.view.ViewParent": [
+    "onDescendantInvalidated",
+    "onNestedFling",
+    "onNestedPreFling",
+    "onNestedPrePerformAccessibilityAction",
+    "onNestedPreScroll",
+    "onNestedScroll",
+    "onNestedScrollAccepted",
+    "onStartNestedScroll",
+    "onStopNestedScroll"
+  ],
+  "android.view.ViewStub.OnInflateListener": [
+    "onInflate"
+  ],
+  "android.view.ViewTreeObserver.OnDrawListener": [
+    "onDraw"
+  ],
+  "android.view.ViewTreeObserver.OnGlobalFocusChangeListener": [
+    "onGlobalFocusChanged"
+  ],
+  "android.view.ViewTreeObserver.OnScrollChangedListener": [
+    "onScrollChanged"
+  ],
+  "android.view.ViewTreeObserver.OnTouchModeChangeListener": [
+    "onTouchModeChanged"
+  ],
+  "android.view.ViewTreeObserver.OnWindowAttachListener": [
+    "onWindowAttached",
+    "onWindowDetached"
+  ],
+  "android.view.ViewTreeObserver.OnWindowFocusChangeListener": [
+    "onWindowFocusChanged"
+  ],
+  "android.view.Window.Callback": [
+    "onActionModeFinished",
+    "onActionModeStarted",
+    "onAttachedToWindow",
+    "onContentChanged",
+    "onCreatePanelMenu",
+    "onCreatePanelView",
+    "onDetachedFromWindow",
+    "onMenuItemSelected",
+    "onMenuOpened",
+    "onPanelClosed",
+    "onPointerCaptureChanged",
+    "onProvideKeyboardShortcuts",
+    "onWindowAttributesChanged",
+    "onWindowFocusChanged",
+    "onWindowStartingActionMode",
+    "onWindowStartingActionMode"
+  ],
+  "android.view.Window.OnFrameMetricsAvailableListener": [
+    "onFrameMetricsAvailable"
+  ],
+  "android.view.Window.OnRestrictedCaptionAreaChangedListener": [
+    "onRestrictedCaptionAreaChanged"
+  ],
+  "android.view.WindowInsetsAnimationControlListener": [
+    "onCancelled",
+    "onFinished",
+    "onReady"
+  ],
+  "android.view.WindowInsetsController.OnControllableInsetsChangedListener": [
+    "onControllableInsetsChanged"
+  ],
+  "android.view.ActionMode.Callback2": [
+    "onGetContentRect"
+  ],
+  "android.view.ActionProvider": [
+    "onCreateActionView",
+    "onPerformDefaultAction"
+  ],
+  "android.view.GestureDetector.SimpleOnGestureListener": [
+    "onContextClick",
+    "onDoubleTap",
+    "onDoubleTapEvent",
+    "onDown",
+    "onFling",
+    "onLongPress",
+    "onScroll",
+    "onShowPress",
+    "onSingleTapConfirmed",
+    "onSingleTapUp"
+  ],
+  "android.view.LayoutInflater": [
+    "onCreateView"
+  ],
+  "android.view.OrientationListener": [
+    "onAccuracyChanged",
+    "onOrientationChanged",
+    "onSensorChanged"
+  ],
+  "android.view.ScaleGestureDetector": [
+    "onTouchEvent"
+  ],
+  "android.view.ScaleGestureDetector.SimpleOnScaleGestureListener": [
+    "onScale",
+    "onScaleBegin",
+    "onScaleEnd"
+  ],
+  "android.view.TouchDelegate": [
+    "onTouchEvent",
+    "onTouchExplorationHoverEvent"
+  ],
+  "android.view.View.AccessibilityDelegate": [
+    "onInitializeAccessibilityEvent",
+    "onInitializeAccessibilityNodeInfo",
+    "onPopulateAccessibilityEvent",
+    "onRequestSendAccessibilityEvent"
+  ],
+  "android.view.View.DragShadowBuilder": [
+    "onDrawShadow",
+    "onProvideShadowMetrics"
+  ],
+  "android.view.ViewGroup": [
+    "onDescendantInvalidated",
+    "onInterceptHoverEvent",
+    "onInterceptTouchEvent",
+    "onNestedFling",
+    "onNestedPreFling",
+    "onNestedPrePerformAccessibilityAction",
+    "onNestedPreScroll",
+    "onNestedScroll",
+    "onNestedScrollAccepted",
+    "onRequestSendAccessibilityEvent",
+    "onResolvePointerIcon",
+    "onStartNestedScroll",
+    "onStopNestedScroll",
+    "onViewAdded",
+    "onViewRemoved"
+  ],
+  "android.view.WindowId.FocusObserver": [
+    "onFocusGained",
+    "onFocusLost"
+  ],
+  "android.gesture.GestureOverlayView.OnGestureListener": [
+    "onGesture",
+    "onGestureCancelled",
+    "onGestureEnded",
+    "onGestureStarted"
+  ],
+  "android.gesture.GestureOverlayView.OnGesturePerformedListener": [
+    "onGesturePerformed"
+  ],
+  "android.gesture.GestureOverlayView.OnGesturingListener": [
+    "onGesturingEnded",
+    "onGesturingStarted"
+  ],
+  "android.view.accessibility.AccessibilityManager.AccessibilityServicesStateChangeListener": [
+    "onAccessibilityServicesStateChanged"
+  ],
+  "android.view.accessibility.AccessibilityManager.AccessibilityStateChangeListener": [
+    "onAccessibilityStateChanged"
+  ],
+  "android.view.accessibility.AccessibilityManager.AudioDescriptionRequestedChangeListener": [
+    "onAudioDescriptionRequestedChanged"
+  ],
+  "android.view.accessibility.AccessibilityManager.TouchExplorationStateChangeListener": [
+    "onTouchExplorationStateChanged"
+  ],
+  "android.widget.AbsListView.MultiChoiceModeListener": [
+    "onItemCheckedStateChanged"
+  ],
+  "android.widget.AbsListView.OnScrollListener": [
+    "onScroll",
+    "onScrollStateChanged"
+  ],
+  "android.widget.AbsListView.RecyclerListener": [
+    "onMovedToScrapHeap"
+  ],
+  "android.widget.ActionMenuView.OnMenuItemClickListener": [
+    "onMenuItemClick"
+  ],
+  "android.widget.AdapterView.OnItemClickListener": [
+    "onItemClick"
+  ],
+  "android.widget.AdapterView.OnItemLongClickListener": [
+    "onItemLongClick"
+  ],
+  "android.widget.AdapterView.OnItemSelectedListener": [
+    "onItemSelected",
+    "onNothingSelected"
+  ],
+  "android.widget.AutoCompleteTextView.OnDismissListener": [
+    "onDismiss"
+  ],
+  "android.widget.CalendarView.OnDateChangeListener": [
+    "onSelectedDayChange"
+  ],
+  "android.app.Fragment": [
+    "onPictureInPictureModeChanged"
+  ],
+  "android.app.LauncherActivity": [
+    "onListItemClick"
+  ]
+}
